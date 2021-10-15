@@ -1,0 +1,13 @@
+<?php
+/** @var \Kirill\Coins\Block\Adminhtml\Edit\Tab\View\Total $block */
+?>
+<div class="fieldset-wrapper customer-information">
+        <table>
+            <tbody>
+        <tr>
+            <th><?= $block->escapeHtml('Total') ?> = </th>
+            <td> <?= $block->escapeHtml($block->getTotal()) ?></td>
+        </tr>
+            </tbody>
+        </table>
+</div>
